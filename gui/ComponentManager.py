@@ -38,7 +38,7 @@ class ComponentManager:
                       name: str,
                       component: _ComponentType,
                       with_render: bool = False,
-                      render_type: Optional[Literal["grid", "pack"]] = None,
+                      render_type: Optional[Literal["grid", "pack", "place"]] = None,
                       render_param: Optional[RenderParamWrapper] = None
                       ):
         # component 파라미터의 타입에 알맞은 상속받은 ComponentContainer 클래스의 add메소드
